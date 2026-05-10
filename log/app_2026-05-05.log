@@ -1,0 +1,48 @@
+2026-05-05 10:45:00.541 | ERROR | task_service.py | {'error': KeyError('Task not found')} |  |  | get_task_status_error
+2026-05-05 10:46:31.445 | ERROR | task_service.py | {'error': KeyError('Task not found')} |  |  | get_task_status_error
+2026-05-05 10:46:44.386 | INFO | task_service.py | {'image': 'image'} |  |  | create_task
+2026-05-05 10:46:44.386 | INFO | task_service.py | {'valid_task': True, 'image': 'image'} |  |  | create_task
+2026-05-05 10:47:14.454 | INFO | task_service.py | {'task_key': '/tasks/c51e490c-5e9f-43a7-b2d0-b437f6e2a4f5', 'data': {'task_id': 'c51e490c-5e9f-43a7-b2d0-b437f6e2a4f5', 'task_type': 'image', 'status': 'pending', 'payload': '{"sound": "fssssss", "animal": "snake"}', 'result': '', 'created_at': '2026-05-05T05:16:44.386000Z', 'updated_at': '2026-05-05T05:16:44.386000Z'}, 'payload': {'sound': 'fssssss', 'animal': 'snake'}, 'result_value': '', 'result': None} |  |  | debug_value
+2026-05-05 10:48:08.301 | INFO | task_service.py | {'example': 'example'} |  |  | create_task
+2026-05-05 10:48:08.302 | INFO | task_service.py | {'valid_task': False, 'example': 'example'} |  |  | create_task
+2026-05-05 10:48:08.302 | ERROR | task_service.py | {'error': ValueError('Invalid task type: example')} |  |  | create_task_error
+2026-05-05 16:34:33.652 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:34:33.652 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:34:47.398 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:34:47.398 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:35:17.158 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:35:17.158 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:36:00.335 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:36:00.336 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:36:31.232 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:36:31.233 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:37:07.665 | INFO | task_service.py | {'doc': 'doc'} |  |  | create_task
+2026-05-05 16:37:07.665 | INFO | task_service.py | {'valid_task': True, 'doc': 'doc'} |  |  | create_task
+2026-05-05 16:37:14.578 | INFO | task_service.py | {'doc': 'doc'} |  |  | create_task
+2026-05-05 16:37:14.579 | INFO | task_service.py | {'valid_task': True, 'doc': 'doc'} |  |  | create_task
+2026-05-05 16:38:42.664 | INFO | task_service.py | {'image': 'image'} |  |  | create_task
+2026-05-05 16:38:42.664 | INFO | task_service.py | {'valid_task': True, 'image': 'image'} |  |  | create_task
+2026-05-05 16:38:58.338 | INFO | task_service.py | {'image': 'image'} |  |  | create_task
+2026-05-05 16:38:58.339 | INFO | task_service.py | {'valid_task': True, 'image': 'image'} |  |  | create_task
+2026-05-05 16:39:38.184 | INFO | worker.py | {'task_id': '3b567b66-be58-4c95-b9a2-89b1df39c2a3'} |  |  | Picked up task
+2026-05-05 16:39:38.186 | INFO | worker.py | {'task_id': '3b567b66-be58-4c95-b9a2-89b1df39c2a3'} |  |  | Task completed
+2026-05-05 16:39:38.188 | INFO | worker.py | {'task_id': 'd27cfed0-9349-49b7-940a-512405b3760f'} |  |  | Picked up task
+2026-05-05 16:39:38.190 | INFO | worker.py | {'task_id': 'd27cfed0-9349-49b7-940a-512405b3760f'} |  |  | Task completed
+2026-05-05 16:39:38.191 | INFO | worker.py | {'task_id': '06e2718d-5296-4265-aa20-3f90901a6719'} |  |  | Picked up task
+2026-05-05 16:39:38.193 | INFO | worker.py | {'task_id': '06e2718d-5296-4265-aa20-3f90901a6719'} |  |  | Task completed
+2026-05-05 16:39:38.195 | INFO | worker.py | {'task_id': 'e7fd8645-a825-4d06-91fc-f7d34b55aab8'} |  |  | Picked up task
+2026-05-05 16:39:38.196 | INFO | worker.py | {'task_id': 'e7fd8645-a825-4d06-91fc-f7d34b55aab8'} |  |  | Task completed
+2026-05-05 16:39:38.198 | INFO | worker.py | {'task_id': '8b9c2bb2-c487-4f2b-b51b-471433670f38'} |  |  | Picked up task
+2026-05-05 16:39:38.199 | INFO | worker.py | {'task_id': '8b9c2bb2-c487-4f2b-b51b-471433670f38'} |  |  | Task completed
+2026-05-05 16:39:38.201 | INFO | worker.py | {'task_id': 'b5a9144f-13cd-4ed3-86ba-252c56ebb983'} |  |  | Picked up task
+2026-05-05 16:39:38.202 | INFO | worker.py | {'task_id': 'b5a9144f-13cd-4ed3-86ba-252c56ebb983'} |  |  | Task completed
+2026-05-05 16:44:22.634 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:44:22.634 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:44:25.568 | INFO | worker.py | {'task_id': '2dc372ab-f56c-4ab8-96a1-e9e4562e11f5'} |  |  | Picked up task
+2026-05-05 16:44:25.573 | INFO | worker.py | {'task_id': '2dc372ab-f56c-4ab8-96a1-e9e4562e11f5'} |  |  | Task completed
+2026-05-05 16:44:38.682 | INFO | task_service.py | {'task_key': '/tasks/2dc372ab-f56c-4ab8-96a1-e9e4562e11f5', 'data': {'task_id': '2dc372ab-f56c-4ab8-96a1-e9e4562e11f5', 'task_type': 'email', 'status': 'success', 'payload': '{"to": "animeshece1998@example.com", "subject": "Testing12345"}', 'result': '{"message": "Email sent to animeshece1998@example.com"}', 'created_at': '2026-05-05T11:14:22.634168Z', 'updated_at': '2026-05-05T11:14:25.571850Z'}, 'payload': {'to': 'animeshece1998@example.com', 'subject': 'Testing12345'}, 'result_value': '{"message": "Email sent to animeshece1998@example.com"}', 'result': {'message': 'Email sent to animeshece1998@example.com'}} |  |  | debug_value
+2026-05-05 16:51:43.993 | INFO | task_service.py | {'email': 'email'} |  |  | create_task
+2026-05-05 16:51:43.994 | INFO | task_service.py | {'valid_task': True, 'email': 'email'} |  |  | create_task
+2026-05-05 16:51:44.031 | INFO | worker.py | {'task_id': '7541d0e8-4552-40ea-8326-147f3273815b'} |  |  | Picked up task
+2026-05-05 16:52:10.705 | INFO | task_service.py | {'task_key': '/tasks/7541d0e8-4552-40ea-8326-147f3273815b', 'data': {'status': 'processing', 'task_type': 'email', 'updated_at': '2026-05-05T11:21:44.031915Z', 'task_id': '7541d0e8-4552-40ea-8326-147f3273815b', 'result': '', 'payload': '{"to": "animeshebanerjee@example.com", "subject": "Testing1234567890"}', 'created_at': '2026-05-05T11:21:43.993408Z'}, 'payload': {'to': 'animeshebanerjee@example.com', 'subject': 'Testing1234567890'}, 'result_value': '', 'result': None} |  |  | debug_value
+2026-05-05 16:53:44.036 | INFO | worker.py | {'task_id': '7541d0e8-4552-40ea-8326-147f3273815b'} |  |  | Task completed
